@@ -3,3 +3,7 @@ import "@hotwired/turbo-rails"
 import "controllers"
 import "packs"
 import "src"
+
+$(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+});

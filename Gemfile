@@ -7,7 +7,8 @@ ruby "3.1.2"
 gem "rails", "~> 7.0.4"
 
 # Use postgresql as the database for Active Record
-gem 'pg', '>= 0.18', '< 2.0'
+gem 'pg'
+# , '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -16,6 +17,12 @@ gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+
+gem 'pry'
+
+gem 'friendly_id'
+
+gem 'pg_search'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"

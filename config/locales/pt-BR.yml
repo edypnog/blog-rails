@@ -29,5 +29,16 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-pt_BR:
-  hello: "Hello world"
+pt-BR:
+  activerecord:
+    models:
+      post: 'Post'
+      comment: 'Comentário'
+    attributes:
+      post:
+        title: 'Título'
+        author: 'Autor'
+        body: 'Post'
+      comment:
+        author: 'Autor'
+        body: 'Comentário:'

@@ -1,8 +1,10 @@
+<%= link_to "Criar novo post", new_post_path, class: 'btn btn-dark mb-5 text-align-center' %>
 <div id="posts">
   <% @posts.each do |post| %>
     <%= render(post) %>
-    <hr>
   <% end %>
 </div>
 
-<%= link_to "New post", new_post_path, class: 'btn btn-success' %>
+<hr>
+
+

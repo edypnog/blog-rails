@@ -19,6 +19,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 
 import "../src/application.css";
 
+
 $(function() {
   $('[data-toggle="tooltip"]').tooltip();
 });
