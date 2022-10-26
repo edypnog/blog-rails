@@ -1,4 +1,4 @@
-![alt text](https://github.com/edypnog/blog-rails/blob/main/screen.png?raw=true)
+!screenshot(https://github.com/edypnog/blog-rails/blob/main/screen.png?raw=true)
 
 
 This README would normally document whatever steps are necessary to get the
