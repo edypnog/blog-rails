@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edy Nogueira | Blog</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+  </head>
+
+  <body>
+    <div class="bg-danger text-center text-light mb-4 p-4">
+
+      <%= link_to root_path, class: 'text-light nav-link' do %>
+        <h1 class="display-4">Edy's Blog</h1>
+      <% end %>
+
+      <p>
+        Hello! Here, you'll find all about the things by my point of view.
+      </p>
+      
+    </div>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <footer class="p-3 mt-4 text-center bg-danger text-light">
+      <p> Copyright &copy Edy Nogueira <%= Date.current.year %> </p>
+    </footer>
+
+
+  </body>
+</html>
