@@ -1,25 +1,10 @@
 ![](app/assets/images/screen.png)
 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Ruby on Rails version 7**
 
-Things you may want to cover:
+* - Ruby
 
-* Ruby version
+* - Gems: pg search, friendly id, pry, i18n.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* - Postgresql
